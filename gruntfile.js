@@ -12,7 +12,8 @@
         sass: {
             dist: {
                 options: {                       // Target options
-                    sourcemap: 'auto'
+                    sourcemap: 'auto',
+		    noCache: true
                 },
                 files: [
                 {
