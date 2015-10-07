@@ -32,5 +32,5 @@
     // Load the Grunt plugins.
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.registerTask('default', [ 'sass', 'watch']);
+    grunt.registerTask('default', [ 'sass']);
 };
