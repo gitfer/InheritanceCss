@@ -1,0 +1,23 @@
+{
+  "name": "InheritanceCss",
+  "version": "0.0.0",
+  "authors": [
+    "Federico Rota <federico.rota01@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "3.3.4",
+    "font-awesome": "fontawesome#~4.3.0"
+  }
+}
