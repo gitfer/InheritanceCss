@@ -1,0 +1,15 @@
+// Elementi (BEM) riutilizzabili
+$fa-font-path: "../../bower_components/font-awesome/fonts";
+@import "../../bower_components/font-awesome/scss/font-awesome";
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+.arx-warning-symbol {
+    @extend .text-warning;
+    @extend .fa;
+    @extend .fa-circle;
+
+    margin-left: 0.2em;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 0.6em;
+}
