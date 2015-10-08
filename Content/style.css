@@ -11,7 +11,7 @@
   src: url("../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-.fa, .arx-required-symbol {
+.fa, .arx-required-symbol, .arx-warning-symbol {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -69,9 +69,9 @@
 .pull-left {
   float: left; }
 
-.fa.pull-left, .pull-left.arx-required-symbol {
+.fa.pull-left, .pull-left.arx-required-symbol, .pull-left.arx-warning-symbol {
   margin-right: .3em; }
-.fa.pull-right, .pull-right.arx-required-symbol {
+.fa.pull-right, .pull-right.arx-required-symbol, .pull-right.arx-warning-symbol {
   margin-left: .3em; }
 
 .fa-spin {
@@ -919,7 +919,7 @@
 .fa-spinner:before {
   content: ""; }
 
-.fa-circle:before, .arx-required-symbol:before {
+.fa-circle:before, .arx-required-symbol:before, .arx-warning-symbol:before {
   content: ""; }
 
 .fa-mail-reply:before,
@@ -3081,10 +3081,10 @@ a.text-success:hover {
 a.text-info:hover {
   color: #245269; }
 
-.text-warning {
+.text-warning, .arx-warning-symbol {
   color: #8a6d3b; }
 
-a.text-warning:hover {
+a.text-warning:hover, a.arx-warning-symbol:hover {
   color: #66512c; }
 
 .text-danger, .arx-required-symbol {
@@ -7426,6 +7426,12 @@ button.close {
   .hidden-print {
     display: none !important; } }
 .arx-required-symbol {
+  margin-left: 0.2em;
+  font-size: 0.5em;
+  position: relative;
+  bottom: 0.6em; }
+
+.arx-warning-symbol {
   margin-left: 0.2em;
   font-size: 0.5em;
   position: relative;
